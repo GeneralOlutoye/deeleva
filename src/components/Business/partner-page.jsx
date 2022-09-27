@@ -3,6 +3,7 @@ import './partner-page.css'
 import { Footer } from "./footer/Footer";
 import { Signup } from "./signup-card/Signup";
 import { Container } from 'react-bootstrap';
+import { Section1 } from "./section1";
 
 const styles = {
     width: "100%",
@@ -12,6 +13,8 @@ const styles = {
 export const Business = () => {
     return (
         <Container className="container">
+
+            < Section1 />
 
             <div className='section2 flexBox'>
                 <div className="section2-text">
