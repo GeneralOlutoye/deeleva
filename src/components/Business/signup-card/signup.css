@@ -1,0 +1,30 @@
+.signup-section {
+    text-align: center;
+    border-top: 1px solid #202124;
+    border-bottom: 1px solid #202124;
+    color: #fff;
+}
+
+.signup-text-wrapper{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.signup-text-h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.signup-text-btn {
+    margin-top: 40px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0c60b;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}

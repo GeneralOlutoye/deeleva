@@ -1,0 +1,121 @@
+footer {
+    width: 100%;
+    background-color: #17181a;
+    text-align: left;
+}
+
+.deleeva_logo {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    width: 90px;
+    height: 30px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: 15px auto;
+    color: #717680;
+}
+
+.footer-top {
+    display: flex;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social {
+    margin-right: 0px;
+    margin-left: auto;
+    order: 1;
+    text-align: left;
+}
+
+.footer-social-icon {
+    color: #fff;
+    border-radius: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-bottom-wrapper {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-top: 1px solid #202124;
+    color: #717680;
+}
+
+.dark-footer-small-text {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.footer-legal-link {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    flex-wrap: wrap;
+    color: #717680;
+}
+
+@media screen and (max-width: 860px) {
+    .footer-bottom-wrapper{
+        display: block;
+    }
+    .copyright-wrapper{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-top {
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .footer-social {
+        margin-top: 10px;
+    }
+    
+    .footer-social-icon {
+        color: #fff;
+        border-radius: 50px;
+        font-size: 25px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    
+    .footer-bottom-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        border-top: 1px solid #202124;
+        color: #717680;
+    }
+
+    .footer-legal-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-legal-link{
+        margin-top: 10px;
+    }
+    
+    .copyright-wrapper{
+        margin-top: 20px;
+    }
+}

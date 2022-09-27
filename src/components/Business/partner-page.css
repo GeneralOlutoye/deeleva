@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Silkscreen:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #0e0e0f;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #0e0e0f;
+    width: 100%;
+}
+
+.section1-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2914b2;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.section1 {
+    flex-direction: column;
+    height: 70vh;
+}
+
+.section1-bg {
+    background-image: url(https://media.istockphoto.com/photos/outside-of-logistics-distributions-warehouse-diverse-team-of-workers-picture-id1340887756?k=20&m=1340887756&s=612x612&w=0&h=oVwGShJ0LndVsN9QKDNbx2IXZa4Z8dKDl9RkZ4FVX2U=);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+
+}
+
+.section1-h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section1-paragraph {
+    font-size: 18px;
+}
+
+.section1-button {
+    margin-top: 35px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0c60b;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .section1-h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .section1-paragraph {
+        font-size: 12px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .section1-h1 {
+        font-size: 20px;
+    }
+
+    .section1-paragraph {
+        font-size: 10px;
+    }
+}
+
+.section2 {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.section2-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 50px auto;
+}
+
+p {
+    font-weight: 200;
+}
+
+.section3 {
+    background-color: #0e0e0f;
+}
+
+.section3-wrapper {
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 75%;
+    color: #fff;
+    padding-top: 12rem;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.section3-text-wrapper,
+.section3-image-wrapper {
+    flex-direction: column;
+    height: 60%;
+    width: 49%;
+    line-height: 2.5rem;
+    background-color: #f0c60b00;
+}
+
+.section3-h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .section2-text h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section3 {
+        background-color: #0e0e0f;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .section3-wrapper {
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        color: #fff;
+        background-color: #00000000;
+    }
+
+    .section3-text-wrapper,
+    .section3-image-wrapper {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        line-height: 2rem;
+        background-color: #f0c60b00;
+    }
+
+    .section3-h2 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+.deleeva_image {
+    width: 100%;
+    margin: auto;
+    border-radius: 7px;
+
+}
+
+.faq-question {
+    font-weight: 600;
+}
+
+.FAQ {
+    justify-content: center;
+    text-align: left;
+    font-weight: 600;
+}
+
+.faq-container {
+    width: 80%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .section2 {
+        font-size: 25px;
+        line-height: 38px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .section2 {
+        font-size: 15px;
+    }
+
+    .section3-wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .align-left {
+        text-align: center;
+    }
+    
+    .section3-text-wrapper,
+    .section3-image-wrapper {
+        flex-direction: column;
+        width: auto;
+        line-height: 2.5rem;
+        background-color: #f0c60b00;
+    }
+    
+    .section3-h2 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+
+.cardHolder{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    background-color: inherit;
+    color: #fff;
+}
+
+.cardTitle{
+    margin-top: 20px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.cardImage{
+    height: 60%;
+}
+
+.cardText{
+    height: 100%;
+    margin: auto 30px;
+    font-weight: 200;
+    overflow: hidden;
+    position:relative;
+}
+
+@media screen and (max-width: 860px) {
+    .cardHolder{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
